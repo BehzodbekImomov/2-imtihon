@@ -1,0 +1,37 @@
+.advice{
+   display: flex;
+   justify-content: center;
+   padding-bottom: 154px;
+}
+.section8{
+    display: flex;
+    width: 968px ;
+    height: 345px;
+    background-color: $yellow;
+    border-radius: 32px;
+   
+
+    .sec8_text{
+        p{
+            padding: 49px 25px 50px 51px;
+            font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 151.4%;
+color: $white;
+        }
+        a{
+            margin-left:51px;
+            padding: 12px 35px;
+           background-color: $white;
+            border-radius: 8px;
+            color:$yellow ;
+            font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+        }
+    }
+}

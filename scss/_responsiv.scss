@@ -240,7 +240,28 @@ p{
         align-items: center;
     }
 }
+// 8-SECTION UCHUN STILLAR
+.advice{
+    padding-bottom: 100px;
+}
+.section8{
+    flex-direction: column;
+    width: 371px;
+    height: 688px;
+    .sec8_text{
+        text-align: center;
+        p{
+            padding: 17px 21px 80px;
+        }
+        a{
+            margin-left: 0;
+        }
 
+    }
+    img{
+        padding-top: 52px;
+    }
+}
 
 
 
