@@ -246,6 +246,7 @@ p{
 }
 .section8{
     flex-direction: column;
+    align-items: center;
     width: 371px;
     height: 688px;
     .sec8_text{
@@ -263,8 +264,17 @@ p{
     }
 }
 
-
-
+// FOOTER UCHUN STILLAR
+.footer_boxs{
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.footer_box4{
+p{
+    text-align: center;
+}
+}
 
 
 
