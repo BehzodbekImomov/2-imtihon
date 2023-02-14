@@ -5,9 +5,10 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   scroll-behavior: smooth;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 ul {
@@ -48,7 +49,7 @@ a {
   gap: 20px;
 }
 .navbar ul li a:hover {
-  color: #22343D;
+  color: #22343d;
   font-weight: 600;
   transition: all 0.2s ease-in-out;
 }
@@ -58,19 +59,19 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
-  color: #22343D;
+  color: #22343d;
 }
 
 .sign_in_button {
   padding: 10px 25px;
-  border: 1px solid #BCD0E5;
+  border: 1px solid #bcd0e5;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
   border-radius: 4px;
-  color: #173A56;
+  color: #173a56;
 }
 
 .sign_up_button {
@@ -81,8 +82,8 @@ a {
   font-size: 16px;
   line-height: 24px;
   border-radius: 4px;
-  background: #02897A;
-  color: #FFFFFF;
+  background: #02897a;
+  color: #ffffff;
 }
 
 .animatedNavigation {
@@ -95,8 +96,11 @@ a {
   transform: translateX(100%);
   transition: transform 1s ease-in-out;
 }
+.animatedNavigation.active {
+  transform: translateX(0);
+}
 .animatedNavigation_nav {
-  background-color: #02897A;
+  background-color: #02897a;
   width: 60%;
   height: 100%;
   margin-left: auto;
@@ -116,7 +120,7 @@ a {
   font-weight: 600;
   font-size: 16px;
   line-height: 28px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .animated_button1 {
@@ -128,21 +132,25 @@ a {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 4px;
-  color: #22343D;
+  color: #22343d;
 }
 
 .animated_button2 {
   padding: 10px 30px;
-  border: 1px solid #BCD0E5;
+  border: 1px solid #bcd0e5;
   border-radius: 4px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
+}
+
+.close_btn {
+  padding: 40px 20px 0 75%;
 }
 
 .hero {
@@ -157,7 +165,7 @@ a {
   font-weight: 700;
   font-size: 40px;
   line-height: 60px;
-  color: #22343D;
+  color: #22343d;
 }
 .hero_text p {
   padding: 18px 33px 45px 0;
@@ -166,7 +174,7 @@ a {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  color: #22343D;
+  color: #22343d;
 }
 .hero_text .get {
   font-family: "Poppins";
@@ -176,14 +184,14 @@ a {
   line-height: 24px;
   border-radius: 4px;
   padding: 15px 41px;
-  background-color: #02897A;
+  background-color: #02897a;
   margin-right: 30px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .hero_text .watch {
-  color: #02897A;
-  border-bottom: 2px solid #02897A;
+  color: #02897a;
+  border-bottom: 2px solid #02897a;
 }
 .hero_text .watch img {
   padding-right: 10px;
@@ -203,7 +211,7 @@ a {
   font-size: 32px;
   line-height: 48px;
   text-align: center;
-  color: #22343D;
+  color: #22343d;
   padding: 0 280px;
 }
 .section2 ul {
@@ -220,7 +228,7 @@ a {
   font-weight: 600;
   font-size: 22px;
   line-height: 33px;
-  color: #22343D;
+  color: #22343d;
   padding: 30px 0 13px;
 }
 .section2 ul li p {
@@ -229,7 +237,7 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #22343D;
+  color: #22343d;
 }
 .section2 ul li .sec2_box1 {
   width: 50px;
@@ -238,7 +246,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #02897A;
+  background-color: #02897a;
 }
 .section2 ul li .sec2_box2 {
   width: 50px;
@@ -247,7 +255,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #4D8DFF;
+  background-color: #4d8dff;
 }
 .section2 ul li .sec2_box3 {
   width: 50px;
@@ -256,7 +264,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #740A76;
+  background-color: #740a76;
 }
 .section2 ul li .sec2_box4 {
   width: 50px;
@@ -265,7 +273,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F03E3D;
+  background-color: #f03e3d;
 }
 .section2 a {
   font-family: "Poppins";
@@ -275,8 +283,8 @@ a {
   line-height: 24px;
   border-radius: 4px;
   padding: 15px 34px;
-  background-color: #02897A;
-  color: #FFFFFF;
+  background-color: #02897a;
+  color: #ffffff;
   text-align: center;
   margin-left: 450px;
 }
@@ -296,7 +304,7 @@ a {
   font-weight: 700;
   font-size: 32px;
   line-height: 48px;
-  color: #22343D;
+  color: #22343d;
 }
 .cards li span {
   font-family: "Poppins";
@@ -305,7 +313,7 @@ a {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  color: #22343D;
+  color: #22343d;
 }
 .cards li h5 {
   font-family: "Poppins";
@@ -313,7 +321,7 @@ a {
   font-weight: 600;
   font-size: 16px;
   line-height: 26px;
-  color: #22343D;
+  color: #22343d;
 }
 .cards li p {
   font-family: "Poppins";
@@ -321,7 +329,7 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #22343D;
+  color: #22343d;
 }
 
 .sec3_title1 h2 {
@@ -373,7 +381,7 @@ a {
   font-weight: 700;
   font-size: 32px;
   line-height: 48px;
-  color: #22343D;
+  color: #22343d;
   text-align: center;
 }
 .section4 .sec4_text {
@@ -383,7 +391,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  color: #22343D;
+  color: #22343d;
   text-align: center;
 }
 .section4 ul {
@@ -423,7 +431,7 @@ a {
   width: 281px;
   height: 53px;
   text-align: center;
-  background: #FFFFFF;
+  background: #ffffff;
   padding: 15px 0;
   box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
   border-radius: 26.5px;
@@ -443,8 +451,8 @@ a {
   line-height: 24px;
   border-radius: 4px;
   padding: 15px 31px;
-  background-color: #02897A;
-  color: #FFFFFF;
+  background-color: #02897a;
+  color: #ffffff;
   margin: 0 400px;
 }
 
@@ -454,7 +462,7 @@ a {
   font-weight: 700;
   font-size: 34px;
   line-height: 51px;
-  color: #22343D;
+  color: #22343d;
 }
 .section5 p {
   font-family: "Poppins";
@@ -462,7 +470,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  color: #22343D;
+  color: #22343d;
 }
 .section5 ul {
   display: flex;
@@ -475,7 +483,7 @@ a {
   width: 348px;
   height: 360px;
   border-radius: 8px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .section5 ul p {
   font-family: "Poppins";
@@ -483,7 +491,7 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  color: #22343D;
+  color: #22343d;
   padding: 20px 93px 12px 24px;
 }
 .section5 ul span {
@@ -495,11 +503,11 @@ a {
   font-weight: 700;
   font-size: 24px;
   line-height: 40px;
-  color: #22343D;
+  color: #22343d;
   padding: 0 30px 40px 24px;
 }
 .section5 ul .activ h4 {
-  color: #02897A;
+  color: #02897a;
 }
 
 .section6 {
@@ -511,7 +519,7 @@ a {
   font-weight: 700;
   font-size: 34px;
   line-height: 51px;
-  color: #22343D;
+  color: #22343d;
   text-align: center;
 }
 .section6 p {
@@ -520,7 +528,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #22343D;
+  color: #22343d;
   text-align: center;
 }
 .section6 ul {
@@ -533,23 +541,23 @@ a {
   height: 456px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   text-align: center;
 }
 .section6 ul li:hover {
-  background-color: #02897A;
-  color: #FFFFFF;
+  background-color: #02897a;
+  color: #ffffff;
   transition: all 0.5s ease-in-out;
 }
 .section6 ul li:hover p {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .section6 ul li:hover span {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .section6 ul li:hover button {
-  color: #02897A;
-  background-color: #FFFFFF;
+  color: #02897a;
+  background-color: #ffffff;
 }
 .section6 ul li:hover .box2 p {
   color: #afafaf;
@@ -560,7 +568,7 @@ a {
   font-weight: 700;
   font-size: 24px;
   line-height: 40px;
-  columns: #22343D;
+  columns: #22343d;
   padding-top: 24px;
 }
 .section6 ul li .description {
@@ -569,17 +577,17 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 40px;
-  color: #22343D;
+  color: #22343d;
 }
 .section6 ul li button {
   padding: 11px 19px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-  background-color: #02897A;
+  background-color: #02897a;
   border-radius: 8px;
   border: none;
   margin-top: 38px;
@@ -597,7 +605,7 @@ a {
   line-height: 100px;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #02897A;
+  color: #02897a;
 }
 .section6 ul .box2 {
   text-align: start;
@@ -636,7 +644,7 @@ a {
   line-height: 57px;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #22343D;
+  color: #22343d;
 }
 .section7 .sec7_dsc {
   font-family: "Poppins";
@@ -656,9 +664,9 @@ a {
 .section7 ul li {
   width: 327px;
   height: 236px;
-  border: 1px solid #DEDEDE;
+  border: 1px solid #dedede;
   border-radius: 5px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .section7 ul li p {
   padding: 0 26px;
@@ -690,7 +698,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.2px;
-  color: #02897A;
+  color: #02897a;
 }
 .section7 .sec7_boxs .title p {
   font-family: "Poppins";
@@ -698,7 +706,7 @@ a {
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
-  color: #252B42;
+  color: #252b42;
   letter-spacing: 0.2px;
   padding: 0;
 }
@@ -713,7 +721,7 @@ a {
   display: flex;
   width: 968px;
   height: 345px;
-  background-color: #02897A;
+  background-color: #02897a;
   border-radius: 32px;
 }
 .section8 .sec8_text p {
@@ -723,14 +731,14 @@ a {
   font-weight: 600;
   font-size: 32px;
   line-height: 151.4%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .section8 .sec8_text a {
   margin-left: 51px;
   padding: 12px 35px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 8px;
-  color: #02897A;
+  color: #02897a;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -754,7 +762,7 @@ footer {
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
-  color: #22343D;
+  color: #22343d;
 }
 .footer_boxs ul a {
   font-family: "Poppins";
@@ -762,7 +770,10 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 35px;
-  color: #22343D;
+  color: #22343d;
+}
+.footer_boxs ul a:hover {
+  color: #02897a;
 }
 
 .footer_box1 ul {
@@ -780,7 +791,7 @@ footer {
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
-  color: #22343D;
+  color: #22343d;
   padding: 0 20px 34px;
 }
 .footer_box4 form {
@@ -791,23 +802,28 @@ footer {
 .footer_box4 form input {
   width: 100%;
   height: 48px;
-  border: 1px solid #BCD0E5;
+  border: 1px solid #bcd0e5;
   border-radius: 4px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .footer_box4 form button {
   width: 131px;
   height: 39px;
   border-radius: 4px;
-  background-color: #02897A;
+  background-color: #02897a;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
+}
+.footer_box4 form button:active {
+  background-color: #ffffff;
+  border: 1px solid #bcd0e5;
+  color: #02897a;
 }
 
 .reserved {
@@ -816,7 +832,7 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  color: #22343D;
+  color: #22343d;
   text-align: center;
 }
 

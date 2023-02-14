@@ -1,139 +1,117 @@
-.navigation{
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navigation {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.nav_imgs{
-    display: flex;
-    gap: 15px;
-    align-items: center;
- 
+.nav_imgs {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 
-}
-.navbar{
+  ul {
     display: flex;
     gap: 20px;
-    align-items: center;
-
-    ul{
-        display: flex;
-        gap: 20px;
-        li{
-            a{
-                &:hover{
-                    color: $darkblue;
-                    font-weight: 600;
-                    transition: all 0.2s ease-in-out;
-                  
-                }
-            }
-          
+    li {
+      a {
+        &:hover {
+          color: $darkblue;
+          font-weight: 600;
+          transition: all 0.2s ease-in-out;
         }
-
-        a{
-            font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 28px;
-color:  $darkblue;
-
-        }
+      }
     }
-}
-.sign_in_button{
-    padding: 10px 25px;
-    border: 1px solid #BCD0E5;
-    @include button();
-    color: #173A56;
-}
-.sign_up_button{
-    padding:10px 25px ;
-@include button();
-background: $yellow;
 
-color: $white;
+    a {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 28px;
+      color: $darkblue;
+    }
+  }
 }
-.animatedNavigation{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-   background-color: rgba(0, 0, 0, 0.5);
-   transform: translateX(100%);
-transition: transform 1s ease-in-out;
-   &_nav{
+.sign_in_button {
+  padding: 10px 25px;
+  border: 1px solid #bcd0e5;
+  @include button();
+  color: #173a56;
+}
+.sign_up_button {
+  padding: 10px 25px;
+  @include button();
+  background: $yellow;
+
+  color: $white;
+}
+.animatedNavigation {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: translateX(100%);
+  transition: transform 1s ease-in-out;
+  &.active{
+    transform: translateX(0);
+  }
+  &_nav {
     background-color: $yellow;
-   width: 60%;
-   height: 100%;
-   margin-left: auto;
-
-   }
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+  }
 }
 
-.animated_ul{
-    padding-top: 25%;
-    padding-bottom: 100px;
-    li{
-       padding-left: 20%;
+.animated_ul {
+  padding-top: 25%;
+  padding-bottom: 100px;
+  li {
+    padding-left: 20%;
     padding-top: 10px;
-        a{
-            font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 28px;
-color: $white;
-        }
+    a {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 28px;
+      color: $white;
     }
+  }
 }
-.animated_button1{
-padding: 10px 30px;
-margin-left:15%;
-margin-right: 10px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-background-color: $white;
-border-radius: 4px;
-color: $darkblue;
-}
-
-
-
-
-.animated_button2{
-padding: 10px 30px;
-border: 1px solid #BCD0E5;
-border-radius: 4px;
-color: $white;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
+.animated_button1 {
+  padding: 10px 30px;
+  margin-left: 15%;
+  margin-right: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: $white;
+  border-radius: 4px;
+  color: $darkblue;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.animated_button2 {
+  padding: 10px 30px;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  color: $white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.close_btn{
+   padding: 40px 20px 0 75%;
+}

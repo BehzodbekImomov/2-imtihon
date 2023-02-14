@@ -1,93 +1,89 @@
-.section2{
-    padding-top: 50px;
-    padding-bottom: 262px;
-    background-image: url(../img/sec2_bg.svg);
-    background-repeat: no-repeat;
-    background-position: -30px 210px;
-   
-    h2{
-        
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 48px;
-text-align: center;
-color: $darkblue;
-padding: 0 280px;
-    }
-    ul{
+.section2 {
+  padding-top: 50px;
+  padding-bottom: 262px;
+  background-image: url(../img/sec2_bg.svg);
+  background-repeat: no-repeat;
+  background-position: -30px 210px;
+
+  h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: $darkblue;
+    padding: 0 280px;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+
+    li {
+      width: 210px;
+
+      h4 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 33px;
+        color: $darkblue;
+        padding: 30px 0 13px;
+      }
+      p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $darkblue;
+      }
+      .sec2_box1 {
+        width: 50px;
+        height: 50px;
+        border-radius: 19px;
         display: flex;
-        justify-content: space-between;
-        padding: 60px 0 ;
-       
-      
-
-        li{
-            width: 210px;
-            
-            h4{
-                font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 22px;
-line-height: 33px;
-color: $darkblue;
-padding: 30px 0 13px;
-            }
-            p{
-                font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-color: $darkblue;
-            }
-            .sec2_box1{
-
-                width: 50px;
-                height: 50px;
-                border-radius: 19px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                background-color: $yellow;
-            }
-            .sec2_box2{
-                width: 50px;
-                height: 50px;
-                border-radius: 19px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                background-color: $blue; 
-            }
-            .sec2_box3{
-                width: 50px;
-                height: 50px;
-                border-radius: 19px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                background-color: $pink; 
-            }
-            .sec2_box4{
-                width: 50px;
-                height: 50px;
-                border-radius: 19px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                background-color: $red;
-            }
-        }
-    }
-    a{
-        @include button();
-        padding: 15px 34px;
+        justify-content: center;
+        align-items: center;
         background-color: $yellow;
-        color: $white;
-       text-align: center;
-       margin-left: 450px;
+      }
+      .sec2_box2 {
+        width: 50px;
+        height: 50px;
+        border-radius: 19px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $blue;
+      }
+      .sec2_box3 {
+        width: 50px;
+        height: 50px;
+        border-radius: 19px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $pink;
+      }
+      .sec2_box4 {
+        width: 50px;
+        height: 50px;
+        border-radius: 19px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $red;
+      }
     }
+  }
+  a {
+    @include button();
+    padding: 15px 34px;
+    background-color: $yellow;
+    color: $white;
+    text-align: center;
+    margin-left: 450px;
+  }
 }

@@ -1,64 +1,40 @@
-.hero{
-    display: flex;
-    justify-content: space-between;
-
+.hero {
+  display: flex;
+  justify-content: space-between;
 }
-.hero_text{
-   h2{
+.hero_text {
+  h2 {
     padding-top: 174px;
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 60px;
-color: $darkblue;
-   }
-   p{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: $darkblue;
+  }
+  p {
     padding: 18px 33px 45px 0;
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 28px;
-color: $darkblue;
-   }
-   .get{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: $darkblue;
+  }
+  .get {
     @include button();
     padding: 15px 41px;
-background-color: $yellow;
-margin-right: 30px;
-font-weight: 700;
-color: $white;
-
-   }
-   .watch{
+    background-color: $yellow;
+    margin-right: 30px;
+    font-weight: 700;
+    color: $white;
+  }
+  .watch {
     color: $yellow;
-border-bottom: 2px solid $yellow;
- 
-   
-   img{
-    padding-right: 10px;
+    border-bottom: 2px solid $yellow;
 
-   }
-   }
+    img {
+      padding-right: 10px;
+    }
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,62 +1,62 @@
-.section5{
-    h2{
-        font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 34px;
-line-height: 51px;
+.section5 {
+  h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
 
-color: $darkblue;
+    color: $darkblue;
+  }
+  p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: $darkblue;
+  }
+  ul {
+    display: flex;
+    gap: 31px;
+    padding-bottom: 230px;
+    justify-content: space-between;
+    padding-top: 30px;
+    li {
+      width: 348px;
+      height: 360px;
+      border-radius: 8px;
+      background-color: $white;
     }
-    p{
-        font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-color: $darkblue;
+    img {
+      //    border-radius: 8px;
     }
-    ul{
-        display: flex;
-        gap: 31px;
-        padding-bottom: 230px;
-        justify-content: space-between;
-        padding-top: 30px;
-        li{
-            width: 348px;
-            height: 360px;
-            border-radius: 8px;
-            background-color: $white;
-        }
-       img{
-    //    border-radius: 8px;
-       }
-        p{
-            font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-color: $darkblue;
-padding: 20px 93px 12px 24px;
-        }
-        span{
-font-weight: 600;
-        }
-        h4{
-            font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 40px;
-color: $darkblue;
-padding: 0 30px 40px 24px;
-        }
+    p {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      color: $darkblue;
+      padding: 20px 93px 12px 24px;
+    }
+    span {
+      font-weight: 600;
+    }
+    h4 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 40px;
+      color: $darkblue;
+      padding: 0 30px 40px 24px;
+    }
 
-        .activ{
-            h4{
-                color: $yellow;
-            }
-        }
+    .activ {
+      h4 {
+        color: $yellow;
+      }
     }
+  }
 }
