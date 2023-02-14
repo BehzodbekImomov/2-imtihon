@@ -2,6 +2,9 @@
     .burger{
         display: none;
     }
+  .mobile{
+    display: none;
+  }
 }
 
 
@@ -11,14 +14,13 @@
         width: 411px;
         padding: 0;
     }
-    .navigation{
-       
-    }
+   
    
 .burger{
     display: inline;
     padding-left: 50px;
 }
+
 .navbar{
     display: none;
 }
@@ -56,8 +58,11 @@ text-align: center;
 
 // 2-SECTION UCHUN STILLAR
 .section2{
+    padding-top: 129px;
 padding-bottom: 130px;
-background-position: -490px 780px;
+background-image: url(../img/responsiv_bg.svg);
+background-repeat: no-repeat;
+background-position: 0 1090px;
 
     h2{
         padding: 0 ;
@@ -68,27 +73,187 @@ background-position: -490px 780px;
      gap: 40px;
      align-items: center;
     li{
+        text-align: center;
         .sec2_box1{
-            margin-left: 48px;
+            margin-left: 70px;
                  }
                 .sec2_box2{
-                    margin-left: 48px;
+                    margin-left: 70px;
                 }
                 .sec2_box3{
-                    margin-left: 48px;
+                    margin-left: 70px;
                 }
                 .sec2_box4{
-                    margin-left: 48px;
+                    margin-left: 70px;
                 }
     }
   
     }
     a{
         padding: 15px 32px;
-        margin-left:110px
+        margin-left:120px
     }
       
     }
+// 3-SECTION UCHUN STILLAR
+.cards{
+    padding: 0;
+   
+    li{
+      
+        justify-content: center;
+        flex-direction: column;
+    }
+
+  .revers{
+flex-direction: column-reverse;
+  }
+ 
+  
+}
+.sec3_title1{
+    h2{
+        padding:    50px 146px 16px 41px;
+    }
+    h5{
+        padding:16px 218px 12px 41px ;
+    }
+    p{
+        padding: 0 41px;
+    }
+    .mobile{
+        display: block;
+       padding: 0 36px 16px 42px;
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+   width: 100%;
+    }
+}
+.sec3_title2{
+    padding: 0;
+    h2{
+        padding: 50px 72px 15px 36px;
+    }
+    p{
+        padding: 0 19px 15px 36px;
+    }
+    .icons{
+       
+        padding: 0 23px 0 36px;
+        .icon1{
+            gap: 0;
+        }
+    }
+}
+.sec3_title3{
+    h2{
+        padding: 50px 149px 16px 36px ;
+    }
+    p{
+        padding: 0 32px 16px 36px ;
+    }
+    h5{
+        padding: 0 0px 12px 36px;
+    }
+}
+// 4-SECTION UCHUN STILLAR
+.section4{
+    background-image:url(../img/sec4_bg_responsiv.svg) ;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding-bottom: 100px;
+    .sec4_text{
+        padding: 0;
+        text-align: center;
+    }
+ul{
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 30px;
+    li{
+        width: 100%;
+    }
+    img{
+        width: 89px;
+        height: 89px;
+    }
+    .sec4_info{
+        width: 230px;
+        height: 62px;
+        padding: 15px 20px;
+    }
+  
+    
+}
+
+
+
+a{
+    margin: 0 90px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+// 5-SECTION UCHUN STILLAR
+.section5{
+    text-align: center;
+p{
+    padding: 0 29px 0 33px;
+}
+
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+// 6-SECTION UCHUN STILLAR
+.section6{
+    padding-bottom: 100px;
+    ul{
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 

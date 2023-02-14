@@ -1,0 +1,104 @@
+.cards{
+    padding-top: 80px;
+    padding-bottom: 150px;
+    li{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 140px;
+        h2{
+            font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+color: $darkblue;
+        }
+        span{
+            font-family: 'Poppins';
+            display: block;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: $darkblue;
+        }
+        h5{
+            font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+color: $darkblue;
+        }
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+color: $darkblue;
+        }
+      
+    }
+}
+.sec3_title1{
+    h2{
+        padding-bottom: 131px;
+    }
+    p{
+        padding: 12px 84px 25px 0;
+    }
+}
+.sec3_title2{
+    padding-left: 80px;
+    h2{
+       padding-bottom: 23px;
+    }
+  
+    .icons{
+  padding-top: 30px;
+       .icon1{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+       padding-top: 30px;
+       }
+    }
+}
+
+.sec3_title3{
+    padding-right: 80px;
+    h2{
+        padding-bottom: 23px;
+    }
+    h5{
+        padding-bottom: 12px;
+    }
+    p{
+        padding-bottom:30px ;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
