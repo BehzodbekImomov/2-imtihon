@@ -1,0 +1,114 @@
+@media screen and (max-width:1440px){
+    .burger{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width:576px){
+    .container{
+        width: 411px;
+        padding: 0;
+    }
+    .navigation{
+       
+    }
+   
+.burger{
+    display: inline;
+    padding-left: 50px;
+}
+.navbar{
+    display: none;
+}
+
+// HERO UCHUN STILLAR
+.hero{
+    flex-direction: column-reverse;
+}
+.hero_img{
+ padding-left: 40px;
+    img{
+        width: 338px;
+        
+ 
+    }
+  
+
+}
+
+.hero_text{
+    text-align: center;
+    padding-bottom: 50px;
+    h2{
+        font-weight: 700;
+font-size: 36px;
+line-height: 60px;
+    }
+    p{
+        font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+    }
+}
+
+// 2-SECTION UCHUN STILLAR
+.section2{
+padding-bottom: 130px;
+background-position: -490px 780px;
+
+    h2{
+        padding: 0 ;
+       
+    }
+    ul{
+       flex-direction: column;
+     gap: 40px;
+     align-items: center;
+    li{
+        .sec2_box1{
+            margin-left: 48px;
+                 }
+                .sec2_box2{
+                    margin-left: 48px;
+                }
+                .sec2_box3{
+                    margin-left: 48px;
+                }
+                .sec2_box4{
+                    margin-left: 48px;
+                }
+    }
+  
+    }
+    a{
+        padding: 15px 32px;
+        margin-left:110px
+    }
+      
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
